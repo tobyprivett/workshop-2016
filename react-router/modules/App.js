@@ -7,8 +7,8 @@ export default React.createClass({
       <div>
         <h1>Hello, Mundo!</h1>
         <ul role='nav'>
-          <li><Link to='/About'>About</Link></li>
-          <li><Link to='/Repos'>Repos</Link></li>
+          <li><Link to='/About' activeClassName='active'>About</Link></li>
+          <li><Link to='/Repos' activeClassName='active'>Repos</Link></li>
         </ul>
         {this.props.children}
       </div>
