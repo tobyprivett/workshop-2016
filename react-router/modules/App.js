@@ -10,6 +10,7 @@ export default React.createClass({
           <li><Link to='/About'>About</Link></li>
           <li><Link to='/Repos'>Repos</Link></li>
         </ul>
+        {this.props.children}
       </div>
     )
   }
