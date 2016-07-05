@@ -12,7 +12,7 @@ export default class About extends Component {
           <li><Link to="/repos/reactjs/react-router">React Router</Link></li>
           <li><Link to="/repos/facebook/react">React</Link></li>
         </ul>
-
+        {this.props.children}
       </div>
     )
   }
