@@ -3,7 +3,7 @@ import Axis from './axis';
 import GraphBody from './graph_body';
 
 export default class Graph extends React.Component {
-  static defaultProps = { width: 400, height: 300 };
+  static defaultProps = { width: 800, height: 600 };
 
   render() {
     return (
