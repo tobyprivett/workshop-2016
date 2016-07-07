@@ -4,7 +4,7 @@ import Graph from './graph'
 export default class App extends Component {
   render() {
     return (
-      <Graph data={this.props.data} />
+      <Graph data={this.props.datasets[0]} />
     );
   }
 }
